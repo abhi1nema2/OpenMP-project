@@ -3,6 +3,7 @@ To Find Duplicate Files in an Directory
 
 # Introduction
 The program will compare the contents of the given two data files. If both files contains same contents , the program will display the output as the two files are Identical. If both files are having different contents, the program will display the output as the two files are not Identical.
+
  
 1. Firstly Declare two file pointers for two files.
  2. Open two files in read mode. Using fopen command. 
@@ -14,5 +15,9 @@ The program will compare the contents of the given two data files. If both files
 Program must be on UBUNTU with Installed OPENMP
 
 # Run the Application
-gcc -fopenmp omp_parallel.c
+
+gcc -fopenmp omp_parallel.c 
+(for parallel code)
+
 gcc -fopenmp omp_serial.c
+(for serial code)
