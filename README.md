@@ -1,6 +1,20 @@
 # OpenMP-project
 To Find Duplicate Files in an Directory
 
+# Overview of OpenMP
+
+
+The OpenMP Application Programming Interface (API) was developed
+to enable portable shared memory parallel programming.
+
+It aims to support the parallelization of applications from many
+disciplines.
+
+It is highly desirable to enable programmers to work with a single
+source code: if a single set of source files contains the code for both
+the sequential and the parallel versions of a program, then program
+maintenance is much simplified.
+
 # Introduction
 The program will compare the contents of the given two data files. If both files contains same contents , the program will display the output as the two files are Identical. If both files are having different contents, the program will display the output as the two files are not Identical.
 
@@ -22,16 +36,4 @@ gcc -fopenmp omp_parallel.c
 gcc -fopenmp omp_serial.c
 (for serial code)
 
-# Overview of OpenMP
 
-
-The OpenMP Application Programming Interface (API) was developed
-to enable portable shared memory parallel programming.
-
-It aims to support the parallelization of applications from many
-disciplines.
-
-It is highly desirable to enable programmers to work with a single
-source code: if a single set of source files contains the code for both
-the sequential and the parallel versions of a program, then program
-maintenance is much simplified.
