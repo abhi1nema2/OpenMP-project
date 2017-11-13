@@ -1,7 +1,7 @@
 # OpenMP-project
 To Find Duplicate Files in an Directory
 
-#Introduction
+# Introduction
 The program will compare the contents of the given two data files. If both files contains same contents , the program will display the output as the two files are Identical. If both files are having different contents, the program will display the output as the two files are not Identical.
  
 1. Firstly Declare two file pointers for two files.
@@ -10,9 +10,9 @@ The program will compare the contents of the given two data files. If both files
 4. Check both characters whether they are equal or not.
 5. Check inside if statement ch1 and ch2, then both files are said to be equal otherwise both files are non identicle.
 
-#Prerequisites
+# Prerequisites
 Program must be on UBUNTU with Installed OPENMP
 
-#Run the Application
+# Run the Application
 gcc -fopenmp omp_parallel.c
 gcc -fopenmp omp_serial.c
