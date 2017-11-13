@@ -21,3 +21,17 @@ gcc -fopenmp omp_parallel.c
 
 gcc -fopenmp omp_serial.c
 (for serial code)
+
+# Overview of OpenMP
+
+
+The OpenMP Application Programming Interface (API) was developed
+to enable portable shared memory parallel programming.
+
+It aims to support the parallelization of applications from many
+disciplines.
+
+It is highly desirable to enable programmers to work with a single
+source code: if a single set of source files contains the code for both
+the sequential and the parallel versions of a program, then program
+maintenance is much simplified.
