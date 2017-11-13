@@ -1,6 +1,11 @@
 # OpenMP-project
 To Find Duplicate Files in an Directory
 
+# Getting Started
+
+To get you started you can simply clone this project's repository and install the dependencies:
+
+
 # Overview of OpenMP
 
 
